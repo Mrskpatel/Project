@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    font-family: "Nunito", sans-serif;
+}
+.Registration{
+    width: 100%;
+    height: 100vh ;
+    background-color: #F4F6F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Registration-Control{
+    width: 80%;
+    height: 90vh;
+    background-color: #fff;
+    border-radius: 35px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Registration-Image{
+    flex-basis: 30%;
+    height: 80vh;
+    border-radius: 35px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-image: linear-gradient(#FF7E28, #FDC9A3);
+    position: relative;
+}
+
+.Registration-Image h1{
+    color: #fff;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.Registration-Image span {
+    color: #fff;
+}
+
+.Registration-Image img{
+    width: 80%;
+    position: absolute;
+    bottom: -30px;
+    left: 13%;
+}
+
+.Registration-Inputs{
+    flex-basis: 50%;
+    height: 80vh;
+}
+
+.Registration-Inputs img{
+    width: 180px;
+    height: auto;
+    cursor: pointer;
+}
+
+.Registration-Logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Registration-Welcome{
+    text-align: center;
+}
+
+.Registration-Welcome h1{
+    font-size: 30px;    
+}
+
+.Registration-Welcome p{
+    margin-top: -10px;
+    color: #A0A6B0;
+}
+
+.RegistrationForm{
+    width: 100%;
+    height: 350px;
+}
+
+.Registration-Form-Input{
+    width: 80%;
+    height: 30px;
+}
+
+.Registration-Button{
+    width: 80%;
+    height: 50px;
+    
+}
+
+/* Login Form */
+.LoginForm{
+    width: 100%;
+    height: 230px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/* Login Form */
